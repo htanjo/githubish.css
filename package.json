@@ -1,0 +1,25 @@
+{
+  "name": "github-md",
+  "version": "0.0.0",
+  "description": "Minimal CSS for GitHub's markdown style",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/htanjo/github-md.css.git"
+  },
+  "keywords": [
+    "css",
+    "github",
+    "markdown",
+    "md"
+  ],
+  "author": "Tanjo, Hiroyuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/htanjo/github-md.css/issues"
+  },
+  "homepage": "https://github.com/htanjo/github-md.css"
+}
