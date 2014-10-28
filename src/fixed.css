@@ -1,0 +1,8 @@
+body {
+  width: 790px;
+  overflow: auto;
+  margin: 10px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
