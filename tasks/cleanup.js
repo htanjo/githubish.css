@@ -24,16 +24,11 @@ module.exports = function () {
 
       style.stylesheet.rules = style.stylesheet.rules.filter(function (el) {
 
-        if (el.type === 'keyframes' || el.type === 'comment' || el.type === 'font-face') {
+        if (el.type === 'font-face') {
           return false;
         }
 
         if (el.type ==='rule') {
-
-          // Remove unnecessary selectors
-          if (/::-webkit-validation|:-moz-placeholder/.test(el.selectors[0])) {
-            return false;
-          }
 
           // Remove class selectors
           el.selectors = el.selectors.filter(function (selector) {
@@ -57,10 +52,6 @@ module.exports = function () {
 
             return selector;
           });
-        }
-
-        if (el.declarations.length === 0) {
-          return false;
         }
 
         return true;
