@@ -1,0 +1,28 @@
+{
+  "name": "githubish",
+  "version": "0.0.0",
+  "homepage": "https://github.com/htanjo/githubish.css",
+  "authors": [
+    "Tanjo, Hiroyuki"
+  ],
+  "description": "Tiny CSS for Github-ish markdown styles",
+  "main": "dist/githubish.css",
+  "keywords": [
+    "css",
+    "github",
+    "markdown",
+    "md"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "package.json",
+    "gulpfile.js",
+    "tasks",
+  ],
+  "dependencies": {
+    "github-markdown-css": "^1.2.0"
+  }
+}

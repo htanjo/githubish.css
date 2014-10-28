@@ -1,15 +1,12 @@
-html {
-  font-family: sans-serif;
+body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
-}
-
-article {
-  display: block;
+  color: #333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
 }
 
 a {
@@ -45,14 +42,29 @@ pre {
 }
 
 code,
+kbd,
 pre {
   font-family: monospace, monospace;
   font-size: 1em;
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
+input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+html input[disabled] {
+  cursor: default;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"] {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
 }
 
@@ -71,11 +83,8 @@ th {
   box-sizing: border-box;
 }
 
-body {
-  min-width: 1020px;
+input {
   font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #333;
-  background-color: #fff;
 }
 
 a {
@@ -155,8 +164,16 @@ ol {
   margin-bottom: 0;
 }
 
-ol ol {
+ol ol,
+ul ol {
   list-style-type: lower-roman;
+}
+
+ul ul ol,
+ul ol ol,
+ol ul ol,
+ol ol ol {
+  list-style-type: lower-alpha;
 }
 
 dd {
@@ -173,12 +190,18 @@ pre {
   font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
-body {
-  overflow: hidden;
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  word-wrap: break-word;
+kbd {
+  background-color: #e7e7e7;
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
 }
 
 body>*:first-child {
@@ -258,6 +281,8 @@ ol {
   padding-left: 2em;
 }
 
+ul ul,
+ul ol,
 ol ol,
 ol ul {
   margin-top: 0;
