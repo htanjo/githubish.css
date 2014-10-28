@@ -1,0 +1,18 @@
+{
+  "always-semicolon": true,
+  "block-indent": 2,
+  "eof-newline": true,
+  "leading-zero": true,
+  "space-after-colon": 1,
+  "space-after-combinator": 1,
+  "space-between-declarations": "\n",
+  "space-after-opening-brace": "\n",
+  "space-after-selector-delimiter": "\n",
+  "space-before-closing-brace": "\n",
+  "space-before-colon": 0,
+  "space-before-combinator": 1,
+  "space-before-opening-brace": 1,
+  "space-before-selector-delimiter": 0,
+  "tab-size": 2,
+  "vendor-prefix-align": true
+}

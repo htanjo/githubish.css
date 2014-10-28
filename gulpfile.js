@@ -8,6 +8,11 @@ var cleanup = require('./tasks/cleanup');
 gulp.task('build', function (cb) {
   return gulp.src('bower_components/github-markdown-css/github-markdown.css')
     .pipe(cleanup())
+    .pipe($.minifyCss())
+    .pipe($.rename('githubish.min.css'))
+    .pipe(gulp.dest('dist'))
+    .pipe($.cssbeautify())
+    .pipe($.csscomb())
     .pipe($.rename('githubish.css'))
     .pipe(gulp.dest('dist'));
 });

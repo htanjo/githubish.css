@@ -1,16 +1,16 @@
 body {
-  -ms-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color: #333;
   overflow: hidden;
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word;
 }
 
 a {
-  background: transparent;
+  background: 0 0;
 }
 
 a:active,
@@ -19,11 +19,10 @@ a:hover {
 }
 
 strong {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 h1 {
-  font-size: 2em;
   margin: 0.67em 0;
 }
 
@@ -33,24 +32,11 @@ img {
 
 hr {
   -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
-}
-
-pre {
-  overflow: auto;
-}
-
-code,
-kbd,
-pre {
-  font-family: monospace, monospace;
-  font-size: 1em;
+       box-sizing: content-box;
 }
 
 input {
   color: inherit;
-  font: inherit;
   margin: 0;
 }
 
@@ -62,9 +48,9 @@ input {
   line-height: normal;
 }
 
-input[type="checkbox"] {
+input[type=checkbox] {
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+       box-sizing: border-box;
   padding: 0;
 }
 
@@ -80,11 +66,11 @@ th {
 
 * {
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+       box-sizing: border-box;
 }
 
 input {
-  font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";
 }
 
 a {
@@ -92,19 +78,15 @@ a {
   text-decoration: none;
 }
 
-a:hover,
+a:active,
 a:focus,
-a:active {
+a:hover {
   text-decoration: underline;
 }
 
 hr {
-  height: 0;
-  margin: 15px 0;
   overflow: hidden;
-  background: transparent;
-  border: 0;
-  border-bottom: 1px solid #ddd;
+  background: 0 0;
 }
 
 hr:before {
@@ -118,50 +100,13 @@ hr:after {
   content: "";
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  line-height: 1.1;
-}
-
-h1 {
-  font-size: 30px;
-}
-
-h2 {
-  font-size: 21px;
-}
-
-h3 {
-  font-size: 16px;
-}
-
-h4 {
-  font-size: 14px;
-}
-
-h5 {
-  font-size: 12px;
-}
-
-h6 {
-  font-size: 11px;
-}
-
 blockquote {
   margin: 0;
 }
 
-ul,
-ol {
+ol,
+ul {
   padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 ol ol,
@@ -169,10 +114,10 @@ ul ol {
   list-style-type: lower-roman;
 }
 
-ul ul ol,
-ul ol ol,
+ol ol ol,
 ol ul ol,
-ol ol ol {
+ul ol ol,
+ul ul ol {
   list-style-type: lower-alpha;
 }
 
@@ -180,36 +125,31 @@ dd {
   margin-left: 0;
 }
 
-code {
-  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-}
-
+code,
 pre {
-  margin-top: 0;
-  margin-bottom: 0;
-  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font: 12px Consolas,"Liberation Mono",Menlo,Courier,monospace;
 }
 
 kbd {
   background-color: #e7e7e7;
-  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
-  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe,#e7e7e7);
+  background-image:         linear-gradient(#fefefe,#e7e7e7);
   background-repeat: repeat-x;
   border-radius: 2px;
   border: 1px solid #cfcfcf;
   color: #000;
   padding: 3px 5px;
   line-height: 10px;
-  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font: 11px Consolas,"Liberation Mono",Menlo,Courier,monospace;
   display: inline-block;
 }
 
-body>*:first-child {
-  margin-top: 0 !important;
+body > :first-child {
+  margin-top: 0!important;
 }
 
-body>*:last-child {
-  margin-bottom: 0 !important;
+body > :last-child {
+  margin-bottom: 0!important;
 }
 
 h1,
@@ -221,7 +161,7 @@ h6 {
   position: relative;
   margin-top: 1em;
   margin-bottom: 16px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.4;
 }
 
@@ -257,13 +197,13 @@ h6 {
   color: #777;
 }
 
-p,
 blockquote,
-ul,
-ol,
 dl,
+ol,
+p,
+pre,
 table,
-pre {
+ul {
   margin-top: 0;
   margin-bottom: 16px;
 }
@@ -273,23 +213,23 @@ hr {
   padding: 0;
   margin: 16px 0;
   background-color: #e7e7e7;
-  border: 0 none;
+  border: 0;
 }
 
-ul,
-ol {
+ol,
+ul {
   padding-left: 2em;
 }
 
-ul ul,
-ul ol,
 ol ol,
-ol ul {
+ol ul,
+ul ol,
+ul ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-li>p {
+li > p {
   margin-top: 16px;
 }
 
@@ -302,7 +242,7 @@ dl dt {
   margin-top: 16px;
   font-size: 1em;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 dl dd {
@@ -316,11 +256,11 @@ blockquote {
   border-left: 4px solid #ddd;
 }
 
-blockquote>:first-child {
+blockquote > :first-child {
   margin-top: 0;
 }
 
-blockquote>:last-child {
+blockquote > :last-child {
   margin-bottom: 0;
 }
 
@@ -333,11 +273,11 @@ table {
 }
 
 table th {
-  font-weight: bold;
+  font-weight: 700;
 }
 
-table th,
-table td {
+table td,
+table th {
   padding: 6px 13px;
   border: 1px solid #ddd;
 }
@@ -354,32 +294,30 @@ table tr:nth-child(2n) {
 img {
   max-width: 100%;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+       box-sizing: border-box;
 }
 
 code {
-  padding: 0;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
+  padding: 0.2em 0;
   margin: 0;
   font-size: 85%;
   background-color: rgba(0,0,0,0.04);
   border-radius: 3px;
 }
 
-code:before,
-code:after {
+code:after,
+code:before {
   letter-spacing: -0.2em;
   content: "\00a0";
 }
 
-pre>code {
+pre > code {
   padding: 0;
   margin: 0;
   font-size: 100%;
   word-break: normal;
   white-space: pre;
-  background: transparent;
+  background: 0 0;
   border: 0;
 }
 
@@ -390,9 +328,6 @@ pre {
   line-height: 1.45;
   background-color: #f7f7f7;
   border-radius: 3px;
-}
-
-pre {
   word-wrap: normal;
 }
 
@@ -408,7 +343,7 @@ pre code {
   border: 0;
 }
 
-pre code:before,
-pre code:after {
+pre code:after,
+pre code:before {
   content: normal;
 }
