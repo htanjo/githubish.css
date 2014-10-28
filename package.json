@@ -1,7 +1,7 @@
 {
   "name": "githubish",
   "version": "0.0.0",
-  "description": "Tiny CSS for Github-ish markdown styles",
+  "description": "Tiny CSS for Github-ish Markdown styles",
   "scripts": {
     "test": "gulp test"
   },

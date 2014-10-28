@@ -5,7 +5,7 @@
   "authors": [
     "Tanjo, Hiroyuki"
   ],
-  "description": "Tiny CSS for Github-ish markdown styles",
+  "description": "Tiny CSS for Github-ish Markdown styles",
   "main": "dist/githubish.css",
   "keywords": [
     "css",
