@@ -4,7 +4,7 @@
   "description": "Minimal CSS for GitHub's markdown style",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/htanjo/github-md.css/issues"
   },
-  "homepage": "https://github.com/htanjo/github-md.css"
+  "homepage": "https://github.com/htanjo/github-md.css",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "css": "^2.1.0",
+    "got": "^1.2.2",
+    "gulp": "^3.8.9",
+    "uncss": "^0.9.0"
+  }
 }
