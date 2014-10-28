@@ -28,7 +28,7 @@ function getCss(cb) {
 }
 
 function getRenderedFixture(cb) {
-  var url = 'https://github.com/sindresorhus/github-markdown-css/blob/gh-pages/fixture.md';
+  var url = 'https://github.com/htanjo/github-md.css/blob/master/fixture.md';
 
   got(url, function (err, data) {
     if (err) {
