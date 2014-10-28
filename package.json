@@ -1,14 +1,13 @@
 {
-  "name": "github-md",
+  "name": "githubish",
   "version": "0.0.0",
-  "description": "Minimal CSS for GitHub's markdown style",
-  "main": "index.js",
+  "description": "Tiny CSS for Github-ish markdown styles",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/htanjo/github-md.css.git"
+    "url": "https://github.com/htanjo/githubish.css.git"
   },
   "keywords": [
     "css",
@@ -19,9 +18,9 @@
   "author": "Tanjo, Hiroyuki",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/htanjo/github-md.css/issues"
+    "url": "https://github.com/htanjo/githubish.css/issues"
   },
-  "homepage": "https://github.com/htanjo/github-md.css",
+  "homepage": "https://github.com/htanjo/githubish.css",
   "devDependencies": {
     "cheerio": "^0.17.0",
     "css": "^2.1.0",

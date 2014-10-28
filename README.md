@@ -1,3 +1,3 @@
-# github-md.css
+# githubish.css
 
-> Minimal CSS for GitHub's markdown style.
+> Tiny CSS for Github-ish markdown styles.
