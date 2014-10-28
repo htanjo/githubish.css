@@ -45,35 +45,14 @@ pre {
 }
 
 code,
-kbd,
 pre {
   font-family: monospace, monospace;
   font-size: 1em;
 }
 
-input {
-  color: inherit;
-  font: inherit;
-  margin: 0;
-}
-
-html input[disabled] {
-  cursor: default;
-}
-
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0;
-}
-
-input {
-  line-height: normal;
-}
-
-input[type="checkbox"] {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
   padding: 0;
 }
 
@@ -90,10 +69,6 @@ th {
 * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-input {
-  font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 body {
@@ -180,16 +155,8 @@ ol {
   margin-bottom: 0;
 }
 
-ol ol,
-ul ol {
+ol ol {
   list-style-type: lower-roman;
-}
-
-ul ul ol,
-ul ol ol,
-ol ul ol,
-ol ol ol {
-  list-style-type: lower-alpha;
 }
 
 dd {
@@ -291,8 +258,6 @@ ol {
   padding-left: 2em;
 }
 
-ul ul,
-ul ol,
 ol ol,
 ol ul {
   margin-top: 0;
@@ -421,18 +386,4 @@ pre code {
 pre code:before,
 pre code:after {
   content: normal;
-}
-
-kbd {
-  background-color: #e7e7e7;
-  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
-  background-image: linear-gradient(#fefefe, #e7e7e7);
-  background-repeat: repeat-x;
-  display: inline-block;
-  padding: 3px 5px;
-  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  line-height: 10px;
-  color: #000;
-  border: 1px solid #cfcfcf;
-  border-radius: 2px;
 }
