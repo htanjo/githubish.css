@@ -30,7 +30,7 @@ $ bower install --save githubish
 ```
 
 ## Usage
-Just inport "githubish.css" to your HTML.
+Just import "githubish.css" to your HTML.
 
 ```html
 <!DOCTYPE html>
