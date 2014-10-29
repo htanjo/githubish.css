@@ -23,6 +23,12 @@ Both libraries are generated automatically using the production code of GitHub.
 * **[githubish-fluid.css](https://raw.githubusercontent.com/htanjo/githubish.css/master/dist/githubish-fluid.css)** / [minified](https://raw.githubusercontent.com/htanjo/githubish.css/master/dist/githubish-fluid.min.css)  
   100% fluid width. This is suitable for generic document.
 
+Or install via [Bower](http://bower.io/).
+
+```shell
+$ bower install --save githubish
+```
+
 ## Usage
 Just inport "githubish.css" to your HTML.
 
