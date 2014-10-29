@@ -22,7 +22,7 @@
     "gulpfile.js",
     "tasks",
   ],
-  "dependencies": {
+  "devDependencies": {
     "github-markdown-css": "^1.2.0"
   }
 }
