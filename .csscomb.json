@@ -13,6 +13,5 @@
   "space-before-combinator": 1,
   "space-before-opening-brace": 1,
   "space-before-selector-delimiter": 0,
-  "tab-size": 2,
-  "vendor-prefix-align": true
+  "tab-size": 2
 }

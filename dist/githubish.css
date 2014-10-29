@@ -1,5 +1,5 @@
 body {
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color: #333;
   font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
@@ -31,7 +31,7 @@ img {
 
 hr {
   -moz-box-sizing: content-box;
-       box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 input {
@@ -49,7 +49,7 @@ input {
 
 input[type=checkbox] {
   -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
 }
 
@@ -65,7 +65,7 @@ th {
 
 * {
   -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 input {
@@ -132,7 +132,7 @@ pre {
 kbd {
   background-color: #e7e7e7;
   background-image: -webkit-linear-gradient(#fefefe,#e7e7e7);
-  background-image:         linear-gradient(#fefefe,#e7e7e7);
+  background-image: linear-gradient(#fefefe,#e7e7e7);
   background-repeat: repeat-x;
   border-radius: 2px;
   border: 1px solid #cfcfcf;
@@ -293,7 +293,7 @@ table tr:nth-child(2n) {
 img {
   max-width: 100%;
   -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 code {
