@@ -3,6 +3,7 @@
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 var merge = require('event-stream').merge;
+var runSequence = require('run-sequence');
 var del = require('del');
 var cleanup = require('./tasks/cleanup');
 
@@ -57,5 +58,15 @@ gulp.task('clean-pages', function (cb) {
   del(['gh-pages'], cb);
 });
 
-gulp.task('default', ['clean', 'build']);
-gulp.task('pages', ['clean-pages', 'build-pages']);
+gulp.task('deploy', function () {
+  return gulp.src('gh-pages/**/*')
+    .pipe($.ghPages());
+});
+
+gulp.task('pages', ['clean-pages'], function () {
+  runSequence('build-pages', 'deploy');
+});
+
+gulp.task('default', ['clean'], function () {
+  gulp.start('build');
+});
