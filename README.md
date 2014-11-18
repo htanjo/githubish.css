@@ -2,6 +2,10 @@
 
 > Tiny CSS for GitHub-ish Markdown styles.
 
+## Demo
+* [Fixed layout](http://htanjo.github.io/githubish.css/)
+* [Fluid layout](http://htanjo.github.io/githubish.css/fluid.html)
+
 ## Overview
 This CSS arranges plain HTML as GitHub style Markdown document.  
 githubish.css is based on [github-markdown-css](https://github.com/sindresorhus/github-markdown-css), but designed for non-classed HTML.
