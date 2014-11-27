@@ -21,6 +21,7 @@
     "package.json",
     "gulpfile.js",
     "src",
+    "templates",
     "tasks"
   ],
   "devDependencies": {
