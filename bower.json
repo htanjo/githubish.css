@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "homepage": "https://github.com/htanjo/githubish.css",
   "authors": [
-    "Tanjo, Hiroyuki"
+    "Hiroyuki Tanjo"
   ],
   "description": "Tiny CSS for GitHub-ish Markdown styles",
   "main": "dist/githubish.css",

@@ -51,4 +51,4 @@ Just import "githubish.css" to your HTML.
 ```
 
 ## License
-Copyright (c) 2014 Tanjo, Hiroyuki. Licensed under the [MIT License](https://github.com/htanjo/githubish.css/blob/master/LICENSE).
+Copyright (c) 2014-2015 Hiroyuki Tanjo. Licensed under the [MIT License](LICENSE).
