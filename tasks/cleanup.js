@@ -44,7 +44,7 @@ module.exports = function () {
               selector = 'body';
             }
 
-            if (/\.markdown-body>.+/.test(selector)) {
+            if (/\.markdown-body[>:].+/.test(selector)) {
               selector = selector.replace(/\.markdown-body/, 'body');
             }
 
