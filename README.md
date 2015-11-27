@@ -38,7 +38,7 @@ Just import "githubish.css" to your HTML.
 
 ```html
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <title>Document</title>
