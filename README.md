@@ -22,7 +22,7 @@ Both libraries are generated automatically using the production code of GitHub.
 
 ## Downloads
 * **[githubish.css](https://raw.githubusercontent.com/htanjo/githubish.css/master/dist/githubish.css)** / [minified](https://raw.githubusercontent.com/htanjo/githubish.css/master/dist/githubish.min.css)  
-  790px centered layout with borders. Similar to README document in GitHub.
+  980px centered layout with borders. Similar to README document in GitHub.
 
 * **[githubish-fluid.css](https://raw.githubusercontent.com/htanjo/githubish.css/master/dist/githubish-fluid.css)** / [minified](https://raw.githubusercontent.com/htanjo/githubish.css/master/dist/githubish-fluid.min.css)  
   100% fluid width. This is suitable for generic document.
