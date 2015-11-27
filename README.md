@@ -37,15 +37,16 @@ $ bower install --save githubish
 Just import "githubish.css" to your HTML.
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Document</title>
     <link rel="stylesheet" href="githubish.css">
   </head>
   <body>
-    Write document here.
+    <h1>Github-ish Markdown</h1>
+    <p>Write your document here!</p>
   </body>
 </html>
 ```
