@@ -27,9 +27,13 @@ Both libraries are generated automatically using the production code of GitHub.
 * **[githubish-fluid.css](https://raw.githubusercontent.com/htanjo/githubish.css/master/dist/githubish-fluid.css)** / [minified](https://raw.githubusercontent.com/htanjo/githubish.css/master/dist/githubish-fluid.min.css)  
   100% fluid width. This is suitable for generic document.
 
-Or install via [Bower](http://bower.io/).
+Or install with package manager: [npm](https://www.npmjs.com/) / [Bower](http://bower.io/).
 
-```shell
+```sh
+$ npm install --save githubish
+```
+
+```sh
 $ bower install --save githubish
 ```
 
