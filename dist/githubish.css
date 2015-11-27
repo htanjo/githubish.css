@@ -1,3 +1,46 @@
+body,
+pre,
+table {
+  overflow: auto;
+}
+
+hr:after,
+hr:before {
+  display: table;
+  content: "";
+}
+
+h1,
+h2 {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #eee;
+}
+
+blockquote,
+h6 {
+  color: #777;
+}
+
+hr,
+img {
+  border: 0;
+}
+
+dl,
+dl dt,
+hr,
+pre code,
+pre > code,
+td,
+th {
+  padding: 0;
+}
+
+pre,
+pre code {
+  word-wrap: normal;
+}
+
 body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -10,6 +53,8 @@ body {
 
 a {
   background: 0 0;
+  color: #4183c4;
+  text-decoration: none;
 }
 
 a:active,
@@ -25,10 +70,6 @@ h1 {
   margin: 0.67em 0;
 }
 
-img {
-  border: 0;
-}
-
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -37,14 +78,12 @@ hr {
 input {
   color: inherit;
   margin: 0;
+  line-height: normal;
+  font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";
 }
 
 html input[disabled] {
   cursor: default;
-}
-
-input {
-  line-height: normal;
 }
 
 input[type=checkbox] {
@@ -56,25 +95,15 @@ input[type=checkbox] {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-td,
-th {
-  padding: 0;
+  display: block;
+  width: 100%;
+  word-break: normal;
+  word-break: keep-all;
 }
 
 * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-input {
-  font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";
-}
-
-a {
-  color: #4183c4;
-  text-decoration: none;
 }
 
 a:active,
@@ -83,29 +112,19 @@ a:hover {
   text-decoration: underline;
 }
 
-hr {
-  overflow: hidden;
-  background: 0 0;
-}
-
-hr:before {
-  display: table;
-  content: "";
-}
-
 hr:after {
-  display: table;
   clear: both;
-  content: "";
 }
 
 blockquote {
   margin: 0;
+  padding: 0 15px;
+  border-left: 4px solid #ddd;
 }
 
 ol,
 ul {
-  padding: 0;
+  padding: 0 0 0 2em;
 }
 
 ol ol,
@@ -129,8 +148,18 @@ pre {
   font: 12px Consolas,"Liberation Mono",Menlo,Courier,monospace;
 }
 
+dl dt,
+table th {
+  font-weight: 700;
+}
+
 body > :first-child {
   margin-top: 0!important;
+}
+
+dl dt,
+li > p {
+  margin-top: 16px;
 }
 
 body > :last-child {
@@ -151,17 +180,13 @@ h6 {
 }
 
 h1 {
-  padding-bottom: 0.3em;
   font-size: 2.25em;
   line-height: 1.2;
-  border-bottom: 1px solid #eee;
 }
 
 h2 {
-  padding-bottom: 0.3em;
   font-size: 1.75em;
   line-height: 1.225;
-  border-bottom: 1px solid #eee;
 }
 
 h3 {
@@ -173,13 +198,10 @@ h4 {
   font-size: 1.25em;
 }
 
-h5 {
-  font-size: 1em;
-}
-
+dl dt,
+h5,
 h6 {
   font-size: 1em;
-  color: #777;
 }
 
 blockquote,
@@ -194,16 +216,10 @@ ul {
 }
 
 hr {
+  overflow: hidden;
+  background: #e7e7e7;
   height: 4px;
-  padding: 0;
   margin: 16px 0;
-  background-color: #e7e7e7;
-  border: 0;
-}
-
-ol,
-ul {
-  padding-left: 2em;
 }
 
 ol ol,
@@ -214,31 +230,13 @@ ul ul {
   margin-bottom: 0;
 }
 
-li > p {
-  margin-top: 16px;
-}
-
-dl {
-  padding: 0;
-}
-
 dl dt {
-  padding: 0;
-  margin-top: 16px;
-  font-size: 1em;
   font-style: italic;
-  font-weight: 700;
 }
 
 dl dd {
   padding: 0 16px;
   margin-bottom: 16px;
-}
-
-blockquote {
-  padding: 0 15px;
-  color: #777;
-  border-left: 4px solid #ddd;
 }
 
 blockquote > :first-child {
@@ -247,18 +245,6 @@ blockquote > :first-child {
 
 blockquote > :last-child {
   margin-bottom: 0;
-}
-
-table {
-  display: block;
-  width: 100%;
-  overflow: auto;
-  word-break: normal;
-  word-break: keep-all;
-}
-
-table th {
-  font-weight: 700;
 }
 
 table td,
@@ -297,7 +283,6 @@ code:before {
 }
 
 pre > code {
-  padding: 0;
   margin: 0;
   font-size: 100%;
   word-break: normal;
@@ -308,22 +293,18 @@ pre > code {
 
 pre {
   padding: 16px;
-  overflow: auto;
   font-size: 85%;
   line-height: 1.45;
   background-color: #f7f7f7;
   border-radius: 3px;
-  word-wrap: normal;
 }
 
 pre code {
   display: inline;
   max-width: initial;
-  padding: 0;
   margin: 0;
   overflow: initial;
   line-height: inherit;
-  word-wrap: normal;
   background-color: transparent;
   border: 0;
 }
@@ -349,7 +330,6 @@ kbd {
 
 body {
   width: 790px;
-  overflow: auto;
   margin: 10px auto;
   padding: 30px;
   border: 1px solid #ddd;
