@@ -31,9 +31,7 @@ gulp.task('build', function () {
   );
 });
 
-gulp.task('clean', function (cb) {
-  del(['dist'], cb);
-});
+gulp.task('clean', del.bind(null, ['dist']));
 
 gulp.task('build-pages', function () {
   return merge(
@@ -54,9 +52,7 @@ gulp.task('build-pages', function () {
   );
 });
 
-gulp.task('clean-pages', function (cb) {
-  del(['gh-pages'], cb);
-});
+gulp.task('clean-pages', del.bind(null, ['gh-pages']));
 
 gulp.task('deploy', function () {
   return gulp.src('gh-pages/**/*')
