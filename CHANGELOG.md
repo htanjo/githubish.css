@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.1 (2015-12-04)
+- Fix padding size.
+
 ## 1.0.0 (2015-11-27)
 - Migrate to the new GitHub layout (980px).
 - Build from the actual GitHub styles.
