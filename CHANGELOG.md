@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.2 (2016-03-08)
+- Build CSS from the latest GitHub stylesheets.
+
 ## 1.0.1 (2015-12-04)
 - Fix padding size.
 
