@@ -55,5 +55,15 @@ Just import "githubish.css" to your HTML.
 </html>
 ```
 
+## Build
+Generate CSS files from the latest GitHub's stylesheets.
+
+```sh
+$ npm install
+$ npm run build
+
+# Output CSS files into "dist" folder.
+```
+
 ## License
 Copyright (c) 2014-2015 Hiroyuki Tanjo. Licensed under the [MIT License](https://github.com/htanjo/githubish.css/blob/master/LICENSE).
