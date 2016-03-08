@@ -33,6 +33,11 @@ h6 {
 }
 
 hr,
+svg:not(:root) {
+  overflow: hidden;
+}
+
+hr,
 img {
   border: 0;
 }
@@ -231,7 +236,6 @@ ul {
 }
 
 hr {
-  overflow: hidden;
   background: #e7e7e7;
   height: 4px;
   margin: 16px 0;
