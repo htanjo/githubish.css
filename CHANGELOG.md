@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.3 (2016-06-03)
+- Build CSS from the latest GitHub stylesheets.
+
 ## 1.0.2 (2016-03-08)
 - Build CSS from the latest GitHub stylesheets.
 
