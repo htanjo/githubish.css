@@ -8,15 +8,11 @@ var generateCss = require('generate-github-markdown-css');
 var cleanup = require('./tasks/cleanup');
 
 // Generate the base github-markdown.css
-gulp.task('generate-css', function (done) {
-  generateCss(function (err, css) {
-    if (err) {
-      done(err);
-      return;
-    }
-    require('fs').writeFileSync('src/github-markdown.css', css);
-    done();
-  });
+gulp.task('generate-css', function () {
+  return generateCss()
+    .then(function (css) {
+      require('fs').writeFileSync('src/github-markdown.css', css);
+    });
 });
 
 // Build githubish(.min).css
