@@ -1,6 +1,8 @@
 # githubish.css
-
 > Tiny CSS for GitHub-ish Markdown styles.
+
+[![npm Version][npm-image]][npm-url]
+[![Bower Version][bower-image]][bower-url]
 
 ## Demo
 * [Fixed layout](http://htanjo.github.io/githubish.css/)
@@ -68,3 +70,8 @@ $ npm run build
 ## License
 Copyright (c) 2014-2016 Hiroyuki Tanjo.
 Licensed under the [MIT License](https://github.com/htanjo/githubish.css/blob/master/LICENSE).
+
+[npm-image]: https://img.shields.io/npm/v/githubish.svg
+[npm-url]: https://www.npmjs.com/package/githubish
+[bower-image]: https://img.shields.io/bower/v/githubish.svg
+[bower-url]: http://bower.io/
