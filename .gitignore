@@ -1,5 +1,6 @@
 .DS_Store
 node_modules
-.publish
-gh-pages
-src/github-markdown.css
+npm-debug.log
+/.publish
+/gh-pages
+/src/github-markdown.css
