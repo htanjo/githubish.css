@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "Tiny CSS for GitHub-ish Markdown styles",
   "main": "dist/githubish.css",
+  "style": "dist/githubish.css",
   "files": [
     "dist"
   ],
