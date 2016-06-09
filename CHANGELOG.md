@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.4 (2016-06-09)
+- Add `style` field to package.json to support module bundlers.
+
 ## 1.0.3 (2016-06-03)
 - Build CSS from the latest GitHub stylesheets.
 
