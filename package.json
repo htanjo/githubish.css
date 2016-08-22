@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "css": "^2.1.0",
-    "del": "^2.1.0",
+    "del": "^2.2.2",
     "generate-github-markdown-css": "^2.0.0",
     "gulp": "^3.8.9",
     "gulp-concat": "^2.4.1",
