@@ -41,7 +41,7 @@
     "gulp-rename": "^1.2.0",
     "gulp-util": "^3.0.1",
     "gulp-wrap": "^0.13.0",
-    "run-sequence": "^1.0.1",
+    "run-sequence": "^1.2.2",
     "through2": "^2.0.0"
   }
 }
